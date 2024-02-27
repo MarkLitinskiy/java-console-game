@@ -1,87 +1,12 @@
 # Team 00 – Java bootcamp
 ### Console Game & Maven
 
-*Takeaways: Today you will implement quite a complicated game business process using Maven build tool*
-
-# Contents
-1. [Chapter I](#chapter-i) \
-	1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-	2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-	3.1. [Exercise 00 – Surrender, You're Surrounded](#exercise-00-surrender-youre-surrounded)
-
-
-# Chapter I 
-### Preamble
-Between 2000 and 2010, there were numerous issues in throttle controller software of a well-known automotive manufacturing company which resulted in 89 serious accidents.
-
-The problem was not in the vehicle design but in low-quality software. It was a spaghetti code uncoverable by any testing methods. 
-
-Even NASA was engaged in the problem investigation. 
-
-Below is the number of defects found in the controller software:
-
-![table_a.8-8](misc/images/table_a.8-8.png)
-
-And this content is not safe to view:
-
-![table_a.8-9](misc/images/table_a.8-9.png)
-
-# Chapter II
-### General Rules
-- Use this page as the only reference. Do not listen to any rumors and speculations about how to prepare your solution.
-
-- Now there is only one Java version for you, 1.8. Make sure that compiler and interpreter of this version are installed on your machine.
-
-- You can use IDE to write and debug the source code.
-
-- The code is read more often than written. Read carefully the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing each task, make sure you follow the generally accepted [Oracle standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code. The only format of comments allowed is Javadoc.
-
-- Pay attention to the permissions of your files and directories.
-
-- To be assessed, your solution must be in your GIT repository.
-
-- Your solutions will be evaluated by your bootcamp mates.
-
-- You should not leave in your "src" directory any other file than those explicitly specified by the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-
-- When you need to get precise output in your programs, it is forbidden to display a precalculated output instead of performing the exercise correctly.
-
-- Have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
-
-- Your reference manual: mates / Internet / Google. And one more thing. There's an answer to any question you may have on Stackoverflow. Learn how to ask questions correctly.
-
-- Read the examples carefully. They may require things that are not otherwise specified in the subject.
-
-- Use System.out for output.
-
-- And may the Force be with you!
-
-- Never leave that till tomorrow which you can do today ;)
-
-
-
-
-# Chapter III
 ### Exercise 00 – Surrender, You're Surrounded
 
 | Exercise 00: Surrender, You're Surrounded | |
 | ------ | ------ |
 | Turn-in directory | ex00 |
 | Files to turn-in | Game-folder, ChaseLogic-folder |
-
-Do you remember good old Java games? In the early 2000s, they were in each phone. Now Java developers design scalable enterprise systems, but at that time... 
-
-Your objective today is to get a bit nostalgic and implement a game where you run from artificial intelligence entities across a square field. 
-
-The program shall generate a random map with obstacles. Both player and its enemies are located on the map in a random manner. Each map element shall have a certain color.
-
-Example of a generated map:
-
-![map](misc/images/map.png)
 
 **Designations**: <br>
 `o` - position of a player (program user) on the map.<br>
