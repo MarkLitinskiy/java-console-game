@@ -1,0 +1,6 @@
+character/Goal.class
+character/Character.class
+character/Point.class
+character/Player.class
+character/type/CharacterType.class
+chaselogic/ChaseLogic.class
